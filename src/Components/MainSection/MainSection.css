@@ -2,11 +2,11 @@
 	width: 300px;
 }
 .teacher-container {
-	background-color: rgba(75, 75, 160, 0.295);
+	background-color: rgb(25, 25, 51);
 }
 .teacher-body {
 	width: 300px;
-	color: rgb(89, 34, 141);
+	color: white;
 	font-size: large;
 	font-weight: 600;
 }
@@ -18,7 +18,7 @@
 .img-service img {
 	width: 300px;
 
-	background-color: darkblue;
+	background-color: rgba(37, 37, 75, 0.89);
 	/* margin-left: 90px; */
 }
 .service-body {
@@ -27,4 +27,11 @@
 .description-p {
 	overflow-y: scroll;
 	height: 200px;
+}
+
+/* gallery section  */
+.gallery-container {
+	margin-top: 650px;
+	background-color: rgb(24, 24, 87);
+	margin-bottom: -200px;
 }

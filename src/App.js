@@ -6,25 +6,40 @@ import Footer from "./Components/Footer/Footer";
 import MainSection from "./Components/MainSection/MainSection";
 
 import React from "react";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+import Services from "./Components/Services/Services";
+import Error from "./Components/Error/Error";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
 	return (
 		<div className="App">
-			{/* <Navbar></Navbar>
-			<MainSection></MainSection>
-			<Footer></Footer> */}
 			<Router>
 				<Navbar></Navbar>
-				<Router>
-					<Header></Header>
-				</Router>
-				<Route>
-					<MainSection></MainSection>
-				</Route>
+				<Switch>
+					<Route exact path="/">
+						<Home></Home>
+					</Route>
+					<Route exact path="/home">
+						<Home></Home>
+					</Route>
+					<Route exact path="/services">
+						<Services></Services>
+					</Route>
+					<Route exact path="/about">
+						<About></About>
+					</Route>
+					<Route exact path="/contact us">
+						<Contact></Contact>
+					</Route>
+					<Route exact path="*">
+						<Error></Error>
+					</Route>
+				</Switch>
 				<Footer></Footer>
-				<Switch></Switch>
 			</Router>
 		</div>
 	);

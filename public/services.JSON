@@ -23,23 +23,12 @@
 		"description": "Schools are in a unique position to help students attain the nationally recommended 60 minutes or more of moderate-to-vigorous physical activity daily.1 Regular physical activity in childhood and adolescence is important for promoting lifelong health and well-being and preventing various health conditions.",
 		"key": "s2"
 	},
-	{
-		"name": "Social or Emotion Development",
-		"img": " https://i.pinimg.com/564x/ea/54/33/ea54330844eb5ef1c74ac17c74c72c05.jpg",
-		"description": "Social and emotional development in the early years, also referred to as early childhood mental health, refers to children's emerging capacity to: Experience, regulate and express a range of emotions. Develop close, satisfying relationships with other children and adults. Actively explore their environment and learn",
-		"key": "s4"
-	},
+
 	{
 		"name": "Student Counseling",
 		"img": " https://cdn-icons-png.flaticon.com/256/5483/5483442.png",
 		"description": "Student counseling is very important for students.It is a support system for the students of the School, and addresses their emotional well being. It serves as a primary mental health care unit, and as such it offers talking therapy and advice for further referrals. It has no jurisdiction over the academic and administrative affairs of the School",
 		"key": "s5"
-	},
-	{
-		"name": "Speech & Language Development",
-		"img": " https://cdn-icons-png.flaticon.com/128/5110/5110035.png",
-		"description": "Speech and language are the skills we use to communicate with others. We form these skills during the first years of life. By age 6, most children learn the basics. Try to talk and read to your child often to boost these skills.",
-		"key": "s6"
 	},
 	{
 		"name": "Transportation Services",
@@ -52,5 +41,17 @@
 		"img": " https://cdn-icons-png.flaticon.com/256/5684/5684038.png",
 		"description": "School health services as a part of the overall school health program provided health and medical services to students. These services tended to be one of three types: basic, expanded, or comprehensive. Basic health services include such things as immunizations, hearing and vision screenings, scoliosis screening, sports physicals, health counseling, and nutritional screenings. Expanded health services included health promotion/disease prevention, mental health counseling, substance abuse counseling, family life/sex education, and care of special needs children. Finally, comprehensive health included reproductive health care, primary care, chronic illness management, and prenatal care.",
 		"key": "s9"
+	},
+	{
+		"name": "Speech & Language Development",
+		"img": " https://cdn-icons-png.flaticon.com/128/5110/5110035.png",
+		"description": "Speech and language are the skills we use to communicate with others. We form these skills during the first years of life. By age 6, most children learn the basics. Try to talk and read to your child often to boost these skills.",
+		"key": "s6"
+	},
+	{
+		"name": "Social or Emotion Development",
+		"img": " https://cdn-icons-png.flaticon.com/128/3629/3629514.png",
+		"description": "Social and emotional development in the early years, also referred to as early childhood mental health, refers to children's emerging capacity to: Experience, regulate and express a range of emotions. Develop close, satisfying relationships with other children and adults. Actively explore their environment and learn",
+		"key": "s4"
 	}
 ]

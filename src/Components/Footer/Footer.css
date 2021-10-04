@@ -1,3 +1,23 @@
 .footer-margin {
-	margin-top: 1000px;
+	margin-top: 300px;
+}
+
+.footer-container {
+	height: 300px;
+}
+.footer-icon i {
+	size: 15px;
+	background-color: rgb(43, 43, 105);
+	border-radius: 30px;
+	margin: 5px;
+}
+.li {
+	list-style: none;
+	display: inline-flex;
+	text-decoration: none;
+	color: aliceblue;
+	padding: 10px;
+}
+.footer-input {
+	margin-left: 248px;
 }
