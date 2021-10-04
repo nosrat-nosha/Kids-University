@@ -1,0 +1,19 @@
+.header-img {
+	background-image: url(../../image/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+
+	position: relative;
+}
+
+.header-left {
+	width: 600px;
+}
+.header-right {
+	/* margin-top: -30px; */
+	/* position: relative; */
+
+	margin-top: 20px;
+	color: white;
+}

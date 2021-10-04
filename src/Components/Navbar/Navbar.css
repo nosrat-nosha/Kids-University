@@ -1,0 +1,13 @@
+.header-bg {
+}
+.header-logo {
+	padding: 10px;
+}
+.nav-list {
+	display: flex;
+}
+.nav-list li {
+	list-style: none;
+	display: inline-flex;
+	padding: 10px;
+}
