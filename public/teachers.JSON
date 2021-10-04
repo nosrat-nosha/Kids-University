@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Mave ",
+		"img": "https://media.istockphoto.com/photos/students-answering-a-question-picture-id1134338121?b=1&k=20&m=1134338121&s=170667a&w=0&h=ERUUGWdq-diyxawsaQZ1LP719maXnskUP-cuEk06e4A=",
+		"salary": "$100",
+		"gender": "Male",
+		"subject": "Math",
+		"age": 30,
+		"id": "Teacher-1"
+	},
+	{
+		"name": "William  ",
+		"img": "https://media.istockphoto.com/photos/happy-teacher-and-schoolboy-giving-each-other-highfive-on-a-class-picture-id1224311229?b=1&k=20&m=1224311229&s=170667a&w=0&h=FuYZ2xRHOdBo7PuxYGy_0dkNU_M9fstDOcqLdTMDHcM=",
+		"salary": "$250",
+		"gender": "Male",
+		"subject": "Math",
+		"age": 30,
+		"id": "Teacher-2"
+	},
+	{
+		"name": "George ",
+		"img": "https://media.istockphoto.com/photos/teacher-and-students-in-the-classroom-teaching-picture-id488562048?k=20&m=488562048&s=612x612&w=0&h=flmGUuMf6ccz8UGmrRqoibYXfYxU0kH51QHE5T7th7I=",
+		"salary": "$200",
+		"gender": "Female",
+		"subject": "English",
+		"age": 28,
+		"id": "Teacher-3"
+	},
+	{
+		"name": "Isabella",
+		"img": "https://media.istockphoto.com/photos/pupils-listening-to-their-teacher-at-chalkboard-picture-id486138470?k=20&m=486138470&s=612x612&w=0&h=2zTtggBkm0ItK2NdiKm1RnOHCqTicKFBvaNmtxnCteI=",
+		"salary": "$160",
+		"gender": "Female",
+		"subject": "Bangla",
+		"age": 28,
+		"id": "Teacher-4"
+	},
+	{
+		"name": "Michelle",
+		"img": "https://media.istockphoto.com/photos/english-language-teacher-teaching-at-japanese-elementary-school-picture-id1193531753?k=20&m=1193531753&s=612x612&w=0&h=kpzBecdod6wr0uqezr8aYg_aqZEAphw0jlgt0MFxPYw=",
+		"salary": "$150",
+		"gender": "Male",
+		"subject": "Art",
+		"age": 25,
+		"id": "Teacher-5"
+	},
+	{
+		"name": "Wilson",
+		"img": "https://media.istockphoto.com/photos/pediatricians-office-picture-id1266493570?b=1&k=20&m=1266493570&s=170667a&w=0&h=00WwUKj-NitMGEFW1Nwt9ScMVXp0zW8AJsGyroLtdTQ=",
+		"salary": "$350",
+		"gender": "Male",
+		"subject": "Health Care",
+		"age": 35,
+		"id": "Teacher-6"
+	}
+]
