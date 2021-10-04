@@ -7,11 +7,11 @@ const Footer = () => {
 	return (
 		<div>
 			<div
-				className="container-fluid footer-container bg-dark text-white footer-margin "
+				className="container-fluid footer-container  text-white footer-margin "
 				fixed="bottom"
 			>
-				<div className="container">
-					<div className="row text-center">
+				<div className="container-fluid bg-dark">
+					<div className="row text-center ">
 						<div className="col-md-12">
 							<p className="p-5  footer-icon">
 								<h4 className="mb-3">Follow Us</h4>
