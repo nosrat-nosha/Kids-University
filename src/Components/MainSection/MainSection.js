@@ -62,7 +62,7 @@ const MainSection = () => {
 			</div>
 
 			{/* services section  */}
-			<div className="container-fluid service-body">
+			<div className="container-fluid service-body ">
 				<div className="row">
 					<div className="text-center p-5">
 						<h2>
