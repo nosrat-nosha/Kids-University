@@ -41,6 +41,10 @@ const Footer = () => {
 									/>
 									<button className="btn btn-danger m-2 ">Subscribe</button>
 								</div>
+								<p>
+									Copyright &copy; 2021<i class="fas fa-heart"></i>All Rights
+									Reserved Kids University.
+								</p>
 							</p>
 						</div>
 					</div>

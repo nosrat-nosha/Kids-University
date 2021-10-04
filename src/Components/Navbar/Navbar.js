@@ -11,7 +11,8 @@ const Navbar = () => {
 				<div className="row">
 					<div className="col-lg-6 header-logo">
 						<h6>
-							<span className="text-danger">Kids</span> University
+							<i class="fas fa-child "></i>
+							<span className="text-danger ms-1">Kids</span> University
 						</h6>
 					</div>
 					<div className="col-lg-6  nav-list ">

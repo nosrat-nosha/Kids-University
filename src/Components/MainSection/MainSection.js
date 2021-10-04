@@ -32,6 +32,7 @@ const MainSection = () => {
 						<div className=" col-12 text-center">
 							<h2 className="text-white">
 								<span className="text-danger">TEACHERS </span>SECTION
+								<hr />
 							</h2>
 						</div>
 						{teachers?.map((teacher) => (
@@ -66,7 +67,7 @@ const MainSection = () => {
 				<div className="row">
 					<div className="text-center p-5">
 						<h2>
-							OUR <span className="text-danger">SERVICES</span>{" "}
+							OUR <span className="text-danger">SERVICES</span> <hr />
 						</h2>
 					</div>
 					{serviceBodys?.map((serviceBody) => (
@@ -109,6 +110,7 @@ const MainSection = () => {
 							<div className=" col-12 text-center">
 								<h2 className="text-white">
 									<span className="text-danger">PHOTO </span>GALLERY
+									<hr />
 								</h2>
 							</div>
 							{teachers?.map((teacher) => (
