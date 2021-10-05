@@ -1,18 +1,14 @@
-.teacher-img img {
-	width: 300px;
-}
 .teacher-container {
 	background-color: rgb(25, 25, 51);
 }
 .teacher-body {
-	width: 300px;
 	color: white;
 	font-size: large;
 	font-weight: 600;
 }
 .cart {
 	border: 1px solid gray;
-	width: 300px;
+
 	align-content: center;
 }
 .img-service img {

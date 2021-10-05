@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Image, Button, NavLink } from "react-bootstrap";
+import { Image, Button, NavLink, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import "./MainSection.css";
@@ -39,8 +39,8 @@ const MainSection = () => {
 							<div className="col-md-4 full-cart p-4 mx-auto ">
 								<p className="d-none">{teacher.id}</p>
 								<div className="cart-body  teacher-body text-white shadow-lg">
-									<div className="img-fluid  teacher-img">
-										<Image src={teacher.img} alt="" />
+									<div className="   teacher-img">
+										<img className="img-fluid" src={teacher.img} alt="" />
 									</div>
 									<div className="p-3 fw-bold">
 										<h4 className="text-secondary">Name : {teacher.name}</h4>
@@ -63,7 +63,7 @@ const MainSection = () => {
 			</div>
 
 			{/* service Body section  */}
-			<div className="container-fluid service-body p-4 mt-5">
+			<div className="container-fluid mx-auto service-body mt-5">
 				<div className="row">
 					<div className="text-center  ">
 						<h2>
@@ -71,27 +71,22 @@ const MainSection = () => {
 						</h2>
 					</div>
 					{serviceBodys?.map((serviceBody) => (
-						<div className="col-md-3 p-4 mx-auto ">
-							<div className="cart">
+						<div className="col-md-3 full-cart   mx-auto ">
+							<div className="cart mb-3 ">
 								<p className="d-none">{serviceBody.key}</p>
 								<div className="img-fluid img-service">
 									<img src={serviceBody.img} alt="" />
 								</div>
 								<div className="">
 									<h4 className="text-center text-danger  p-3">
-										{" "}
 										{serviceBody.name}
 									</h4>
 									<hr />
-									<p className="description-p p-3">
-										{" "}
-										{serviceBody.description}
-									</p>
+									<p className="description-p p-3">{serviceBody.description}</p>
 									<hr />
 									<div className="justify-content-center  p-3">
 										<Link to="/services">
 											<Button variant="btn btn-danger ">
-												{" "}
 												See More <i class="fas fa-arrow-right ms-2"></i>
 											</Button>
 										</Link>
@@ -117,8 +112,8 @@ const MainSection = () => {
 								<div className="col-md-4 full-cart p-4 mx-auto ">
 									<p className="d-none">{teacher.id}</p>
 									<div className="cart-body  teacher-body text-white shadow-lg">
-										<div className="img-fluid  teacher-img">
-											<Image src={teacher.img} alt="" />
+										<div className="   teacher-img">
+											<img className="img-fluid" src={teacher.img} alt="" />
 										</div>
 									</div>
 								</div>

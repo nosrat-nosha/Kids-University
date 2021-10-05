@@ -14,10 +14,10 @@ const Footer = () => {
 								<h4 className="mb-3   ">
 									Follow <span className="">Us</span>{" "}
 								</h4>
-								<i class="fab fa-facebook-square p-2 "></i>
-								<i className="fab fa-linkedin p-2"></i>
-								<i className="fab fa-instagram-square p-2"></i>
-								<i className="fab fa-youtube p-2"></i>
+								<i class="fab fa-facebook-square p-2 m-2 "></i>
+								<i className="fab fa-linkedin p-2 m-2"></i>
+								<i className="fab fa-instagram-square p-2 m-2"></i>
+								<i className="fab fa-youtube p-2 m-2"></i>
 								<div className="footer-nav fs-5">
 									<NavLink className="li footer-li" to="/home">
 										Home
@@ -40,7 +40,7 @@ const Footer = () => {
 									/>
 									<button className="btn btn-danger m-2 ">Subscribe</button>
 								</div>
-								<p className="mt-5">
+								<p className="">
 									Copyright &copy; 2021<i className="fas fa-heart bg-dark"></i>
 									All Rights Reserved By Kids University.
 								</p>
