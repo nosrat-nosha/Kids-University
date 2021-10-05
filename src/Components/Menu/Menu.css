@@ -1,0 +1,15 @@
+.menu-container {
+	background-color: rgb(31, 31, 78);
+}
+.nav-text {
+	margin-left: 600px;
+}
+.li {
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-text {
+		margin-left: 0px;
+	}
+}

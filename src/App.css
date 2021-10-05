@@ -1,6 +1,7 @@
 .App {
 	/* text-align: center; */
 	background-color: rgb(247, 243, 239);
+	overflow-x: hidden;
 }
 
 .App-logo {

@@ -36,14 +36,14 @@ const MainSection = () => {
 							</h2>
 						</div>
 						{teachers?.map((teacher) => (
-							<div className="col-md-4 full-cart p-5 ">
+							<div className="col-md-4 full-cart p-4 mx-auto ">
 								<p className="d-none">{teacher.id}</p>
 								<div className="cart-body  teacher-body text-white shadow-lg">
 									<div className="img-fluid  teacher-img">
 										<Image src={teacher.img} alt="" />
 									</div>
-									<div className="p-3">
-										<h2 className="text-secondary">Name : {teacher.name}</h2>
+									<div className="p-3 fw-bold">
+										<h4 className="text-secondary">Name : {teacher.name}</h4>
 										<hr />
 										<p className="">Subject : {teacher.subject}</p>
 										<p className="">Salary : {teacher.salary}</p>
@@ -62,16 +62,16 @@ const MainSection = () => {
 				</div>
 			</div>
 
-			{/* services section  */}
-			<div className="container-fluid service-body ">
+			{/* service Body section  */}
+			<div className="container-fluid service-body p-4 mt-5">
 				<div className="row">
-					<div className="text-center p-5">
+					<div className="text-center  ">
 						<h2>
 							OUR <span className="text-danger">SERVICES</span> <hr />
 						</h2>
 					</div>
 					{serviceBodys?.map((serviceBody) => (
-						<div className="col-md-3 ">
+						<div className="col-md-3 p-4 mx-auto ">
 							<div className="cart">
 								<p className="d-none">{serviceBody.key}</p>
 								<div className="img-fluid img-service">
@@ -104,7 +104,7 @@ const MainSection = () => {
 			</div>
 			{/* Gallery section  */}
 			<div className="">
-				<div className="gallery-container p-3 ">
+				<div className="gallery-container p-3  mt-5">
 					<div className=" container ">
 						<div className="row mt-5">
 							<div className=" col-12 text-center">
@@ -114,7 +114,7 @@ const MainSection = () => {
 								</h2>
 							</div>
 							{teachers?.map((teacher) => (
-								<div className="col-md-4 full-cart p-5 ">
+								<div className="col-md-4 full-cart p-4 mx-auto ">
 									<p className="d-none">{teacher.id}</p>
 									<div className="cart-body  teacher-body text-white shadow-lg">
 										<div className="img-fluid  teacher-img">

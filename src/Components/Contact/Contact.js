@@ -5,14 +5,14 @@ import { Col, Form, Row } from "react-bootstrap";
 
 const Contact = () => {
 	return (
-		<div className="p-5">
+		<div className="h-50 mt-5">
 			<div className="row text-center">
 				<h2>
 					<span className="text-danger mt-5">CONTACT</span> US
 				</h2>
 				<hr />
 			</div>
-			<Form className="p-5">
+			<Form className="p-5 mx-auto w-75 ">
 				<Row className="mb-3">
 					<Form.Group as={Row} controlId="formGridEmail">
 						<Form.Label>Name</Form.Label>
@@ -22,32 +22,21 @@ const Contact = () => {
 						<Form.Label>Email</Form.Label>
 						<Form.Control type="email" placeholder="Enter email" />
 					</Form.Group>
-
-					<Form.Group as={Row} controlId="formGridPassword">
-						<Form.Label>Password</Form.Label>
-						<Form.Control type="password" placeholder="Password" />
-					</Form.Group>
 				</Row>
-
-				<Form.Group className="mb-3" controlId="formGridAddress1">
-					<Form.Label>Address</Form.Label>
-					<Form.Control placeholder="1234 Main St" />
-				</Form.Group>
-
-				<Form.Group className="mb-3" controlId="formGridAddress2">
-					<Form.Label>Address 2</Form.Label>
-					<Form.Control placeholder="Apartment, studio, or floor" />
-				</Form.Group>
 
 				<Row className="mb-3">
 					<Form.Group as={Row} controlId="formGridCity">
-						<Form.Label>City</Form.Label>
+						<Form.Label>Adress</Form.Label>
 						<Form.Control />
 					</Form.Group>
 
 					<Form.Group as={Row} controlId="formGridZip">
 						<Form.Label>Zip</Form.Label>
 						<Form.Control />
+					</Form.Group>
+					<Form.Group as={Row} controlId="formGridPassword ">
+						<Form.Label>Password</Form.Label>
+						<Form.Control type="password" placeholder="Password" />
 					</Form.Group>
 				</Row>
 
