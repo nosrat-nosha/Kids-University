@@ -31,6 +31,9 @@ const Menu = () => {
 							<Link className="li text-white" to="/contact us">
 								Contact Us
 							</Link>
+							<Link className="li text-white" to="*">
+								Policy
+							</Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

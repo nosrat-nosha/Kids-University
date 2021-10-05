@@ -16,7 +16,7 @@ const About = () => {
 					<img className="img-fluid shadow-lg " src={image} alt="" />
 				</div>
 				<div className="ml-5 col-lg-6">
-					<h4 className="p-3 mt-3">What is our aim?</h4>
+					<h4 className="p-3 mt-3">What Is Our Aim?</h4>
 					<p className="p-3">
 						Our aim is the pursuit of excellence for all. Cheam High School aims
 						to create a welcoming and exciting learning environment where we:
