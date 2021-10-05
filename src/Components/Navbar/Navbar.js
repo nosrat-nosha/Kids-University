@@ -26,7 +26,7 @@ const Navbar = () => {
 							Services
 						</NavLink>
 						<NavLink className="li" to="/contact us">
-							Contact US
+							Contact Us
 						</NavLink>
 					</div>
 				</div>

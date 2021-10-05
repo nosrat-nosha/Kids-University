@@ -1,10 +1,10 @@
 [
 	{
-		"name": "Mave ",
+		"name": "Sarah ",
 		"img": "https://media.istockphoto.com/photos/students-answering-a-question-picture-id1134338121?b=1&k=20&m=1134338121&s=170667a&w=0&h=ERUUGWdq-diyxawsaQZ1LP719maXnskUP-cuEk06e4A=",
 		"salary": "$100",
-		"gender": "Male",
-		"subject": "Math",
+		"gender": "Female",
+		"subject": "Science",
 		"age": 30,
 		"id": "Teacher-1"
 	},
@@ -36,10 +36,10 @@
 		"id": "Teacher-4"
 	},
 	{
-		"name": "Michelle",
+		"name": "Maria",
 		"img": "https://media.istockphoto.com/photos/english-language-teacher-teaching-at-japanese-elementary-school-picture-id1193531753?k=20&m=1193531753&s=612x612&w=0&h=kpzBecdod6wr0uqezr8aYg_aqZEAphw0jlgt0MFxPYw=",
 		"salary": "$150",
-		"gender": "Male",
+		"gender": "Female",
 		"subject": "Art",
 		"age": 25,
 		"id": "Teacher-5"

@@ -43,12 +43,12 @@ const MainSection = () => {
 										<Image src={teacher.img} alt="" />
 									</div>
 									<div className="p-3">
-										<h2 className="text-secondary">Name: {teacher.name}</h2>
+										<h2 className="text-secondary">Name : {teacher.name}</h2>
 										<hr />
-										<p className="">Subject:{teacher.subject}</p>
-										<p className="">Slary:{teacher.salary}</p>
-										<p className="">Gendar:{teacher.gender}</p>
-										<p className="">Age:{teacher.age}</p>
+										<p className="">Subject : {teacher.subject}</p>
+										<p className="">Salary : {teacher.salary}</p>
+										<p className="">Gender : {teacher.gender}</p>
+										<p className="">Age : {teacher.age}</p>
 										<Link to="/services">
 											<button className="btn btn-danger">
 												See More <i class="fas fa-arrow-right ms-2"></i>

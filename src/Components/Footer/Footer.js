@@ -15,7 +15,7 @@ const Footer = () => {
 						<div className="col-md-12">
 							<p className="p-5  footer-icon">
 								<h4 className="mb-3">Follow Us</h4>
-								<i className="fab  fa-facebook p-3 "></i>
+								<i class="fab fa-facebook-square p-3 "></i>
 								<i className="fab fa-linkedin p-3"></i>
 								<i className="fab fa-instagram-square p-3"></i>
 								<i className="fab fa-youtube p-3"></i>
@@ -30,7 +30,7 @@ const Footer = () => {
 										Services
 									</NavLink>
 									<NavLink className="li" to="/contact us">
-										Contact US
+										Contact Us
 									</NavLink>
 								</div>
 								<div className="input-group footer-input col-md-12 w-50 ">
@@ -41,9 +41,9 @@ const Footer = () => {
 									/>
 									<button className="btn btn-danger m-2 ">Subscribe</button>
 								</div>
-								<p>
+								<p className="mt-5">
 									Copyright &copy; 2021<i class="fas fa-heart"></i>All Rights
-									Reserved Kids University.
+									Reserved By Kids University.
 								</p>
 							</p>
 						</div>
