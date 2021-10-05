@@ -13,7 +13,10 @@ const Menu = () => {
 						<span className="text-danger ms-1 ">Kids</span>{" "}
 						<span className="text-white">University</span>
 					</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Toggle aria-controls="basic-navbar-nav">
+						{" "}
+						<i className="fas fa-bars toggle-button"></i>{" "}
+					</Navbar.Toggle>
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className=" nav-text ">
 							<Link className="li text-white" to="/home">

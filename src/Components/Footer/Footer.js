@@ -35,7 +35,7 @@ const Footer = () => {
 								<div className="input-group footer-input mx-auto  ">
 									<input
 										className="p-1 m-2  form-control"
-										placeholder="Enter Your Mail "
+										placeholder="Enter Your Email "
 										type="text"
 									/>
 									<button className="btn btn-danger m-2 ">Subscribe</button>

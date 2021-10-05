@@ -14,25 +14,23 @@ const Contact = () => {
 			</div>
 			<Form className="p-5 mx-auto w-75 ">
 				<Row className="mb-3">
-					<Form.Group as={Row} controlId="formGridEmail">
+					<Form.Group as={Row} controlId="formGridCity">
 						<Form.Label>Name</Form.Label>
-						<Form.Control type="text" placeholder="Enter Your Name" />
-					</Form.Group>
-					<Form.Group as={Row} controlId="formGridEmail">
-						<Form.Label>Email</Form.Label>
-						<Form.Control type="email" placeholder="Enter email" />
-					</Form.Group>
-				</Row>
 
-				<Row className="mb-3">
+						<Form.Control placeholder="Enter Your Name" />
+					</Form.Group>
+					<Form.Group as={Row} controlId="formGridCity">
+						<Form.Label>Email</Form.Label>
+						<Form.Control placeholder="Enter Your Email" />
+					</Form.Group>
 					<Form.Group as={Row} controlId="formGridCity">
 						<Form.Label>Adress</Form.Label>
-						<Form.Control />
+						<Form.Control placeholder="Adress" />
 					</Form.Group>
 
 					<Form.Group as={Row} controlId="formGridZip">
 						<Form.Label>Zip</Form.Label>
-						<Form.Control />
+						<Form.Control placeholder="Zip" />
 					</Form.Group>
 					<Form.Group as={Row} controlId="formGridPassword ">
 						<Form.Label>Password</Form.Label>

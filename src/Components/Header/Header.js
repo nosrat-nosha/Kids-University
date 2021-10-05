@@ -21,7 +21,7 @@ const Header = () => {
 					<div className="input-group w-50 pt-3">
 						<input
 							className=" form-control"
-							placeholder="Enter Your Mail "
+							placeholder="Enter Your Email "
 							type="text"
 						/>
 						<button className="btn btn-danger ms-2 ">Subscribe</button>
