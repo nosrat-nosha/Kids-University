@@ -13,7 +13,7 @@ const Services = () => {
 		<div>
 			<div className="row">
 				<h2 className="text-center p-5">
-					OUE ALL <span className="text-danger ">SERVICES</span>{" "}
+					 ALL <span className="text-danger ">SERVICES</span>{" "}
 				</h2>
 				{services.map((service) => (
 					<div className="row service-container p-5">
